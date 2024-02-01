@@ -1,0 +1,166 @@
+/* form required */
+.required::before {
+  content: "* ";
+  font-weight: bold;
+  font-size: 15px;
+  color: red;
+ float: right;
+}
+
+.dark-mode {
+  background-color: #121212; 
+ 
+}
+
+.light-mode {
+  background-color: #ffffff; 
+
+ 
+}
+.siderbar-body{
+ 
+    list-style: none;
+    border-radius: 25px;
+  
+  }
+ .sidebar-li{
+    box-shadow: 5px 5px 2ch rgb(205, 218, 221);
+    cursor: pointer;
+    
+      
+  }
+
+  .navbar-body{
+    box-shadow: 2px 2px 1ch rgb(27, 166, 212);
+  
+  
+  }
+  
+
+  .profile-text{
+   
+    color: black;
+  
+  }
+  
+
+  .post-name{
+    color: rgb(97, 118, 255);
+    text-shadow: 1px  #000000;
+  }
+
+  .footer-body{
+    height: auto;
+    min-height: 100vh;
+    position: absolute;
+    box-shadow: 2px 2px 15px rgb(216, 240, 248) inset;
+  }
+
+  
+
+  .card-container{
+    
+    width: 250px;
+    margin-top: 25px;
+ 
+  }
+  .crd-container{
+    height: 20px;
+    width: 200px;
+    
+  }
+  
+  .card-inpart{
+    background-color: rgb(251, 251, 255);
+    box-shadow: 0 7px 11px 1ch rgba(52, 52, 53, 0.2), 0 8px 25px 1ch rgba(40, 14, 211, 0.19);
+    cursor: pointer;
+   border-radius: 7px;
+  }
+  .card-inpart:hover{
+   font-size: large;
+  }
+  
+
+  .PiChartt{
+    box-shadow: 5px 10px 15px 1ch rgba(23, 213, 231, 0.2), 0 12px 32px 0 rgba(105, 211, 246, 0.19);
+    margin-top: 15px;
+  float: right;
+  margin-left: 180px;
+    border-radius: 50%;
+  }
+  .pie-container{
+    float: right;
+    margin-top: 220px;
+
+  }
+
+  .composed-graph{
+    box-shadow: 5px  5px 1ch 5px rgb(137, 134, 134);
+    border-radius: 4px;
+    float: right;
+    margin-top: 180px;
+    margin-right: 40px;
+  }
+
+  .card-employeestatus{
+    float: right;
+    background-color: rgb(229, 229, 229);
+    height: 250px;
+    margin-top: 35px;
+    margin-right: 5px;
+    width: 40rem;
+    box-shadow: 5px  5px 1ch 5px rgb(185, 185, 185);
+    cursor: pointer;
+  }
+
+  .employee-card-detail{
+    /* width: ; */
+    border-radius: 8px;
+     background-color: lightgray; 
+    box-shadow: 10px 10px 2ch rgb(89, 91, 91) inset; 
+    margin-right: 47px;
+    margin-left: 70px;
+    margin-top: 80px;
+    float: right;
+   
+  }
+
+ .card-room-heading{
+  width: 500px;
+  float: right;
+  margin-right: 260px;
+  margin-top: 40px;
+ }
+.Attendance-overview-container{
+  float: right;
+  margin-right: 8px;
+  width: 938px;
+  height: 586px;
+  margin-left: 121px;
+  margin-top: px;
+  margin-top: 47px;
+  box-shadow: 5px 5px 8px 1ch rgba(42, 43, 43, 0.2), 0 8px 25px 1ch rgba(255, 255, 255, 0.19);
+}
+
+.Add-emp-info{
+  float: right;
+  margin-top: 30px;
+  margin-right: 178px;
+ 
+  border-radius: 7px;
+  width: 700px; 
+  height: 580px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(138, 137, 137, 0.19);
+}
+
+
+.add-emp-form-heading{
+ color: #000000;
+}
+
+.body-container {
+  min-height: 80%; /* Minimum height of the viewport */
+
+  height: auto;
+}
